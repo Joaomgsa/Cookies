@@ -10,12 +10,12 @@ public class Program {
 
         cookies.put("username", "maria");
         cookies.put("email", "maria@gmail.com");
-        cookies.put("phone", "99771133");
+        cookies.put("phone", "99771122");
 
         cookies.remove("email");
         cookies.put("phone","99771133");
 
-        System.out.println("Contains 'phone' key:" + cookies.containsKey("phone"));
+        System.out.println("Contains 'phone' key:" + cookies.containsKey("email"));
         System.out.println("Phone number:" + cookies.get("phone"));
         System.out.println("Email:" + cookies.get("email"));
         System.out.println("Size: " + cookies.size());
